@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Lexend:wght@300&family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+}
+.head{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("banner.png");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+  
+}
+
+.logo img{
+    width: 150px;
+    padding: 20px;
+    margin-left: 40px;
+    position: absolute;
+    margin-top: 10px;
+}
+.navbar ul{
+    text-align: right;
+    margin-right: 60px;
+    
+}
+.navbar ul li{
+    display: inline-block;
+    padding: 15px;
+    margin-top: 20px;
+}
+.navbar ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    display: block;
+    margin: auto;
+    background: #f44336;
+}
+.navbar ul li:hover::after{
+    width: 100%;
+    transition: 0.5s;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+}
+.heading{
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+}
+.heading h1{
+    font-size: 52px;
+    color: white;
+}
+.heading p{
+    font-size: 15px;
+    font-weight: 300;
+    color: white;
+    margin-top: 10px;
+}
+.heading .btn{
+    border: 2px solid white;
+    padding: 10px;
+    text-decoration: none;
+    position: absolute;
+    margin-top: 25px;
+    color: white;
+    left: 35%;
+    width: 200px;
+}
+.heading .btn:hover{
+    background: tomato;
+    transition: 0.5s;
+}
+.about{
+    display: flex;
+    background-color: white;
+    height: 100vh;
+    box-shadow: 2px 2px 20px rgba(158, 162, 179, 0.5);
+}
+.text h2{
+    top: 120%;
+    left: 5%;
+    position: absolute;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.text p{
+    top: 130%;
+    left: 5%;
+    position: absolute;
+    text-align: left;
+    width: 500px;
+    font-weight: 300;
+}
+.text .btn-1{
+    text-decoration: none;
+    top: 150%;
+    left: 5%;
+    position: absolute;
+    text-align: left;
+    border: 2px solid rgb(243, 97, 97);
+    padding: 5px;
+    width: 180px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    color: rgb(243, 97, 97);
+    
+}
+.text .btn-1:hover{
+    color: black;
+    background: rgb(243, 97, 97);
+    border: 2px solid black;
+    transition: 0.5s;
+}
+.about-pic img{
+    top: 115%;
+    left: 53%;
+    position: absolute;
+    width: 500px;
+    height: 300px;
+    margin-bottom: 20px;
+}
+.text-1 h1{
+    top: 170%;
+    left: 47%;
+    font-size: 20px;
+    position: absolute;
+    margin-top: 20px;
+    
+}
+.text-1 p{
+    top: 180%;
+    left: 30%;
+    position: absolute;
+    margin-top: 10px;
+    font-weight: 300;
+    width: 600px;
+    text-align: center;
+}
+.course{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+h1{
+    font-size: 30px;
+    font-weight: 600;
+}
+p{
+    color: black;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.course-1{
+    flex-basis: 31%;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+}
+.course-1:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+.facilities{
+    text-align: center;
+    padding: 100px;
+    width: 80%;
+    margin-left: 2.5%;
+    margin-top: 5%;
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+.facilities-1 {
+    flex-basis: 31%;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 5%;
+}
+.facilities-1 img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.campus{
+    text-align: center;
+    padding-top: 100px;
+}
+.campus-1{
+    flex-basis: 31%;
+    width: 80%;
+    padding: 40px;
+    margin-bottom: 5%;
+}
+.campus-1 img{
+    width: 100%;
+}
+.faculties{
+    text-align: center;
+    margin-top: 3%;
+    
+}
+
+.faculties-1{
+    flex-basis: 31%;
+    width: 80%;
+    border-radius: 10px;
+    padding: 40px;
+    margin-bottom: 3%;
+}
+.faculties-1 img{
+    width: 100%;
+    border-radius: 10px;
+    
+}
